@@ -3,7 +3,8 @@
 <head>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="practice.js"></script>
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
 
@@ -27,7 +28,7 @@
 						<label>Required - Min length 10 - Max length 25:</label>
 						<input type="text" class="form-control">
 					</div>
-					<div class="form-group">
+					<div class="form-group" name="hope">
 						<label>Not required - Min length 10 - Max length 25:</label>
 						<input type="text" class="form-control">
 					</div>
@@ -41,7 +42,7 @@
 						<label><input type="radio" value="0"> No</label>
 					</div>
 					<div class="form-group">
-						<label>Required if above field is Yes:</label>
+						<label id="yes-field">Required if above field is Yes:</label>
 						<input type="text" class="form-control">
 					</div>
 					<div class="form-group">
